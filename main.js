@@ -125,13 +125,13 @@ $(".btnSavat").on("click", () => {
                 <img src="${item.img_src}">
                 <div class="plus_minus d-flex justify-content-evenly">
                     <button class="btn btn-danger">-</button>
-                    <p class="first ps-3 pe-3 ">1</p>
+                    <p class="first ps-3 pe-4 ">1</p>
                     <button class="btn btn-primary">+</button>
                 </div>
                 <div class="items d-flex flex-column">
                     <p>Nomi: ${item.name}</p>
                     <p>Narxi: ${item.cost}</p>
-                    <p class="text-center text-primary" style="font-size: 25px;">Umumiy summa: 34567</p>
+                    <p class="text-center text-primary" style="font-size: 27px;">Umumiy summa: 34567</p>
                 </div>
             </div>
         
